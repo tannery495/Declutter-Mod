@@ -76,5 +76,3 @@ Open the in-game mod menu and click **Declutter** → **Config**, or edit the fi
 ```
 .minecraft/config/declutter-common.toml
 ```
-
-All options are **enabled by default** except Hide Mods Button, which is off by default.
