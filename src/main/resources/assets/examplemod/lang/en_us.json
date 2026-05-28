@@ -1,0 +1,23 @@
+{
+  "examplemod.configuration.title": "Debloat Settings",
+  "examplemod.configuration.section.examplemod.common.toml": "Debloat Settings",
+  "examplemod.configuration.section.examplemod.common.toml.title": "Debloat Settings",
+  "examplemod.configuration.hideRealms": "Hide Realms Button",
+  "examplemod.configuration.disableTelemetry": "Turn Off Data Collection",
+  "examplemod.configuration.hideCredits": "Hide Credits & Attribution Button",
+  "examplemod.configuration.hideMultiplayerWarning": "Skip Online Play Warning Screen",
+  "examplemod.configuration.skipExperimentalWarning": "Skip Experimental World Warning",
+  "examplemod.configuration.hideRecipeBook": "Hide Recipe Book Button",
+  "examplemod.configuration.hideFeedbackButtons": "Hide Give Feedback & Report Bugs Buttons",
+  "examplemod.configuration.suppressAdvancementToasts": "Hide Advancement Unlock Popups",
+  "examplemod.configuration.suppressRecipeToasts": "Hide Recipe Unlock Popups",
+  "examplemod.configuration.suppressTutorialToasts": "Hide Tutorial Hint Popups",
+  "examplemod.configuration.suppressNarratorToast": "Hide Narrator Toggle Popup",
+  "examplemod.configuration.hideAccessibilityButton": "Hide Accessibility Icon (Title Screen)",
+  "examplemod.configuration.hidePlayerReporting": "Hide Player Reporting Button",
+  "examplemod.configuration.hideOpenToLan": "Hide Open to LAN Button",
+  "examplemod.configuration.hideChatIndicators": "Hide Chat Message Indicators",
+  "examplemod.configuration.hideOnlineOptions": "Hide Online Options Button",
+  "examplemod.configuration.hideSplashText": "Hide Yellow Splash Text (Title Screen)",
+  "examplemod.configuration.hideCopyright": "Hide Copyright Notice (Title Screen)"
+}

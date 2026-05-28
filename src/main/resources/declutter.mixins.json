@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "com.example.declutter.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "RealmsNotificationsScreenMixin",
+    "MinecraftTelemetryMixin",
+    "OptionsScreenMixin",
+    "SafetyScreenAccessor",
+    "WarningScreenMixin",
+    "ConfirmExperimentalFeaturesScreenMixin",
+    "RecipeBookComponentMixin",
+    "PauseScreenMixin",
+    "ChatComponentMixin",
+    "TitleScreenMixin"
+  ],
+  "minVersion": "0.8"
+}
