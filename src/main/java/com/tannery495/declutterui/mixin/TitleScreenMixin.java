@@ -1,0 +1,27 @@
+package com.tannery495.declutterui.mixin;
+
+import com.tannery495.declutterui.Config;
+import net.minecraft.client.gui.Font;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
+import net.minecraft.client.gui.components.SplashRenderer;
+import net.minecraft.client.gui.screens.TitleScreen;
+import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Redirect;
+
+@Mixin(TitleScreen.class)
+public abstract class TitleScreenMixin {
+
+    @Redirect(
+        method = "extractRenderState",
+        at = @At(
+            value = "INVOKE",
+            target = "Lnet/minecraft/client/gui/components/SplashRenderer;extractRenderState(Lnet/minecraft/client/gui/GuiGraphicsExtractor;ILnet/minecraft/client/gui/Font;F)V"
+        )
+    )
+    private void skipSplashRender(SplashRenderer splash, GuiGraphicsExtractor graphics, int screenWidth, Font font, float alpha) {
+        if (!Config.HIDE_SPLASH_TEXT.get()) {
+            splash.extractRenderState(graphics, screenWidth, font, alpha);
+        }
+    }
+}

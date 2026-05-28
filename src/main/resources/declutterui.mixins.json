@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "package": "com.tannery495.declutterui.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "RealmsNotificationsScreenMixin",
+    "MinecraftTelemetryMixin",
+    "OptionsScreenMixin",
+    "SafetyScreenAccessor",
+    "WarningScreenMixin",
+    "ConfirmExperimentalFeaturesScreenMixin",
+    "RecipeBookComponentMixin",
+    "PauseScreenMixin",
+    "ChatComponentMixin",
+    "TitleScreenMixin",
+    "AccessibilityOnboardingScreenMixin",
+    "BackupConfirmScreenMixin"
+  ],
+  "minVersion": "0.8"
+}
